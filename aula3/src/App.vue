@@ -1,5 +1,8 @@
 <script>
+import CounterWidget from './components/Counter.vue'
+
 export default {
+  components: { CounterWidget },
   data() {
     return {
       form: {
@@ -49,7 +52,9 @@ export default {
 </script>
 
 <template>
-  <form @submit.prevent="onSubmit" @reset.prevent="onReset">
+  <div>
+    <CounterWidget />
+    <form @submit.prevent="onSubmit" @reset.prevent="onReset">
     <div>
       <label for="name">Nome:</label>
       <input id="name" v-model="form.name" type="text" required />
@@ -88,7 +93,8 @@ export default {
       <p>Género: {{ form.gender }}</p>
       <p>Hobbys: <span v-if="form.hobbies.length">{{ form.hobbies.join(', ') }}</span><span v-else> Nenhum</span></p>
     </div>
-  </form>
+    </form>
+  </div>
 </template>
 
 
