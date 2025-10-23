@@ -1,47 +1,49 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <div>
+    <StudentCard 
+      v-for="student in students" 
+      :key="student.studentNumber"
+      :name="student.name"
+      :student-number="student.studentNumber"
+      :course="student.course"
+      :year="student.year"
+    />
+  </div>
+  
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
+<script>
+import StudentCard from './componentes/StudentCard.vue'
+export default {
+  name: 'App',
+  components: {
+    StudentCard,
+  },
+  data() {
+    return {
+      students: [
+        {
+          name: 'Alice Johnson',
+          studentNumber: 123456,
+          course: 'Computer Science',
+          year: 2,
+        },
+        {
+          name: 'Bob Smith',
+          studentNumber: 234567,
+          course: 'Information Systems',
+          year: 1,
+        },
+        {
+          name: 'Charlie Brown',
+          studentNumber: 345678,
+          course: 'Software Engineering',
+          year: 3,
+        },
+      ],
+    };
+  },
 }
+</script>
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+<style lang="scss" scoped></style>
