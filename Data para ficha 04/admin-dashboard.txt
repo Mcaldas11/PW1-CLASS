@@ -1,0 +1,52 @@
+// src/data/users.js
+export const users = [
+  {
+    id: 1,
+    name: 'Ana Silva',
+    email: 'ana.silva@company.com',
+    role: 'Administrator',
+    joinDate: '2023-01-15',
+    status: 'Active',
+    department: 'IT'
+  },
+  {
+    id: 2,
+    name: 'Bruno Costa',
+    email: 'bruno.costa@company.com',
+    role: 'Editor',
+    joinDate: '2023-03-22',
+    status: 'Active',
+    department: 'Marketing'
+  },
+  {
+    id: 3,
+    name: 'Carla Mendes',
+    email: 'carla.mendes@company.com',
+    role: 'Viewer',
+    joinDate: '2023-05-10',
+    status: 'Active',
+    department: 'Sales'
+  },
+  {
+    id: 4,
+    name: 'Daniel Rodrigues',
+    email: 'daniel.rodrigues@company.com',
+    role: 'Editor',
+    joinDate: '2023-07-08',
+    status: 'Inactive',
+    department: 'Support'
+  },
+  {
+    id: 5,
+    name: 'Eva Fernandes',
+    email: 'eva.fernandes@company.com',
+    role: 'Administrator',
+    joinDate: '2022-11-30',
+    status: 'Active',
+    department: 'IT'
+  }
+]
+
+// Helper para encontrar utilizador por ID
+
+// Helper para obter estatísticas

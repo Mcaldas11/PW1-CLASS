@@ -1,0 +1,46 @@
+// src/data/photos.js
+export const photos = [
+  {
+    id: 1,
+    title: 'Mountain Sunset',
+    url: 'https://picsum.photos/id/1018/800/600'
+  },
+  {
+    id: 2,
+    title: 'Ocean Waves',
+    url: 'https://picsum.photos/id/1015/800/600'
+  },
+  {
+    id: 3,
+    title: 'Forest Path',
+    url: 'https://picsum.photos/id/1019/800/600'
+  },
+  {
+    id: 4,
+    title: 'City Lights',
+    url: 'https://picsum.photos/id/1022/800/600'
+  },
+  {
+    id: 5,
+    title: 'Desert Landscape',
+    url: 'https://picsum.photos/id/1024/800/600'
+  },
+  {
+    id: 6,
+    title: 'Snowy Mountains',
+    url: 'https://picsum.photos/id/1036/800/600'
+  }
+]
+
+// Helper para encontrar foto por ID
+
+
+// Helper para encontrar o index da foto
+
+// Helper para obter foto anterior
+
+
+// Helper para obter próxima foto
+
+
+// Helper para obter foto aleatória (diferente da atual)
