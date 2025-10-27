@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h1>Tech Blog</h1>
-    <p>Bem-vindo ao Tech Blog — explora artigos sobre desenvolvimento web e boas práticas.</p>
+    <h1>Sneaker Store</h1>
+    <p>Bem-vindo à loja — explora os nossos modelos.</p>
   </section>
 </template>
 

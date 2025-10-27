@@ -21,6 +21,7 @@ const article = articles.find(a => a.id === id)
 </script>
 
 <style scoped>
-section{padding:20px}
-h1{margin:0 0 8px}
+section{padding:20px;color:var(--text)}
+h1{margin:0 0 8px;color:var(--text)}
+p{color:var(--text)}
 </style>

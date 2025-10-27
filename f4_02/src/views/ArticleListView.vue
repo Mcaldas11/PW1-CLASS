@@ -20,6 +20,6 @@ import { articles } from '../data/articles'
 <style scoped>
 section{padding:20px}
 ul{list-style:none;padding:0}
-li{margin-bottom:18px;padding:12px;background:#f6f6f6;border-radius:6px}
-a{color:#0969da}
+li{margin-bottom:18px;padding:12px;background:var(--card-bg);border-radius:6px;color:var(--text);box-shadow:0 8px 24px var(--shadow)}
+a{color:var(--accent)}
 </style>

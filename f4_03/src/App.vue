@@ -6,10 +6,11 @@ import { RouterView } from 'vue-router'
   <div id="app">
     <header class="nav">
       <nav>
-        <router-link to="/" class="logo">Tech Blog</router-link>
+        <router-link to="/" class="logo">Sneaker Store</router-link>
         <ul class="links">
           <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/articles">Articles</router-link></li>
+          <li><router-link to="/shop">Shop</router-link></li>
+          <li><router-link to="/about">About</router-link></li>
         </ul>
       </nav>
     </header>
@@ -41,4 +42,5 @@ nav{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-conten
 .links{list-style:none;display:flex;gap:12px;margin:0;padding:0}
 .links a{text-decoration:none;color:var(--text)}
 section{padding:20px}
+
 </style>

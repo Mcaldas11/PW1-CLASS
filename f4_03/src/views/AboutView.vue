@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h1>Tech Blog</h1>
-    <p>Bem-vindo ao Tech Blog — explora artigos sobre desenvolvimento web e boas práticas.</p>
+    <h1>About</h1>
+    <p>Somos uma loja fictícia de sneakers — demo de nested routing.</p>
   </section>
 </template>
 
