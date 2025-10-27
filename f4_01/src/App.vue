@@ -25,17 +25,15 @@ import { RouterView } from 'vue-router'
   </div>
 </template>
 
-<!-- Global styles: keep variables and base colors global so views can use them -->
 <style>
 :root {
-  --bg: #000000; /* preto */
-  --accent: #16a34a; /* verde */
-  --card-bg: #07120b; /* fundo dos cartões (escuro) */
-  --text: #16a34a; /* texto verde */
-  --shadow: rgba(22, 163, 74, 0.18); /* sombra verde suave */
+  --bg: #000000; 
+  --accent: #16a34a; 
+  --card-bg: #07120b; 
+  --text: #16a34a; 
+  --shadow: rgba(22, 163, 74, 0.18); 
 }
 
-/* Ensure the whole page uses the black background and green text */
 html,
 body,
 #app {
@@ -91,7 +89,7 @@ nav {
 .content {
   max-width: 900px;
   margin: 24px auto;
-  padding: 0 16px 100px; /* leave room for footer */
+  padding: 0 16px 100px;
   flex: 1 0 auto;
 }
 
