@@ -1,0 +1,80 @@
+:root {
+  --bg: #000000;
+  --panel: #0f0f10;
+  --text: #b6ffb6;         
+  --accent: #22c55e;       
+  --accent-strong: #00ff66;
+  --border: #1f3d28;
+  --muted: #7fe38f;
+}
+
+* { box-sizing: border-box; }
+html, body, #app { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Links */
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-strong); text-decoration: underline; }
+
+/* Generic buttons */
+button {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--accent);
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+button:hover:not(:disabled) {
+  background: var(--accent);
+  color: #001400;
+  border-color: var(--accent-strong);
+}
+button:disabled { opacity: .5; cursor: not-allowed; }
+
+/* Panels / cards */
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+/* Counter specific helpers */
+.counter-wrapper { color: var(--text); }
+.counter-wrapper .limits { color: var(--muted); }
+.counter-wrapper .flag.min { background: #065f46; }
+.counter-wrapper .flag.max { background: #064e3b; }
+
+/* Progress bar */
+.progress-bar {
+  background: #0a0a0a;
+  border: 1px solid var(--border);
+  height: 14px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.progress {
+  background: var(--accent);
+  height: 100%;
+  transition: width .25s ease;
+}
+
+/* History list */
+.history { color: var(--text); }
+.history li {
+  background: #0b130c;
+  border: 1px solid var(--border);
+}
+.history li strong { color: var(--accent-strong); }
+.history li small { color: var(--muted); }
