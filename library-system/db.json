@@ -1,0 +1,191 @@
+{
+  "books": [
+    {
+      "title": "Fourth Wing",
+      "author": "Rebecca Yarros",
+      "isbn": "978-1649374042",
+      "year": 2023,
+      "genre": "fantasy",
+      "available": true,
+      "rating": 4,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1761312598i/61431922.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "author": "Gabrielle Zevin",
+      "isbn": "978-0593321201",
+      "year": 2022,
+      "genre": "fiction",
+      "available": true,
+      "rating": 5,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1636978687i/58784475.jpg"
+    },
+    {
+      "id": "3",
+      "title": "The Guest List",
+      "author": "Lucy Foley",
+      "isbn": "978-0062868930",
+      "year": 2020,
+      "genre": "thriller",
+      "available": false,
+      "rating": 4,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1591461181i/52656911.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "isbn": "978-0593135204",
+      "year": 2021,
+      "genre": "scifi",
+      "available": true,
+      "rating": 5,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1597695864i/54493401.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "isbn": "978-1501161933",
+      "year": 2017,
+      "genre": "fiction",
+      "available": true,
+      "rating": 5,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1664458703i/32620332.jpg"
+    },
+    {
+      "id": "6",
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "isbn": "978-0525559474",
+      "year": 2020,
+      "genre": "fiction",
+      "available": true,
+      "rating": 4,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1602190253i/52578297.jpg"
+    },
+    {
+      "id": "8",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "isbn": "978-0618640157",
+      "year": 1954,
+      "genre": "fantasy",
+      "available": true,
+      "rating": 5,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "978-0141439518",
+      "year": 1813,
+      "genre": "classic",
+      "available": true,
+      "rating": 5,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1681804503i/129915654.jpg"
+    },
+    {
+      "id": "10",
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "isbn": "978-1250301697",
+      "year": 2019,
+      "genre": "thriller",
+      "available": true,
+      "rating": 4,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1668782119i/40097951.jpg"
+    },
+    {
+      "id": "11",
+      "title": "House of Earth and Blood",
+      "author": "Sarah J. Maas",
+      "isbn": "978-1635574043",
+      "year": 2020,
+      "genre": "fantasy",
+      "available": false,
+      "rating": 4,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1559142847i/44778083.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Lessons in Chemistry",
+      "author": "Bonnie Garmus",
+      "isbn": "978-0385547345",
+      "year": 2022,
+      "genre": "fiction",
+      "available": true,
+      "rating": 5,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1634748496i/58065033.jpg"
+    },
+    {
+      "id": "13",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "978-0743273565",
+      "year": 1925,
+      "genre": "classic",
+      "available": true,
+      "rating": 4,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1650033243i/41733839.jpg"
+    },
+    {
+      "id": "14",
+      "title": "It Ends with Us",
+      "author": "Colleen Hoover",
+      "isbn": "978-1501110368",
+      "year": 2016,
+      "genre": "romance",
+      "available": true,
+      "rating": 4,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1670795825i/62627512.jpg"
+    },
+    {
+      "title": "Demon Copperhead",
+      "author": "Barbara Kingsolver",
+      "isbn": "978-0063251922",
+      "year": 2022,
+      "genre": "fiction",
+      "available": true,
+      "rating": 5,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1660050779i/60194162.jpg",
+      "id": "16"
+    },
+    {
+      "id": "17",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "978-0060935467",
+      "year": 1960,
+      "genre": "classic",
+      "available": true,
+      "rating": 5,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1612238791i/56916837.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Happy Place",
+      "author": "Emily Henry",
+      "isbn": "978-0593441275",
+      "year": 2023,
+      "genre": "romance",
+      "available": true,
+      "rating": 4,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1660145160i/61718053.jpg"
+    },
+    {
+      "title": "Atmosphere",
+      "author": "Taylor Jenkins Reid",
+      "isbn": "9781529152982",
+      "year": 2025,
+      "genre": "romance",
+      "available": true,
+      "rating": 5,
+      "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1730469032i/220817728.jpg",
+      "id": "aQ5jlmg"
+    }
+  ]
+}
